@@ -1,0 +1,6 @@
+syntax = "proto3";
+message Payload {
+  required int64 nonce = 1;
+  required int64 nftId = 2;
+  required bytes signature = 3;
+}

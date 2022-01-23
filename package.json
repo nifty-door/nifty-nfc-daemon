@@ -1,0 +1,24 @@
+{
+  "name": "nifty-nfc-reader",
+  "version": "0.1.0",
+  "description": "NFC reader to run on microcontroller and unlock door",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/nifty-door/nifty-nfc-reader",
+  "author": "Nifty Door LLC",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@0x/types": "^3.3.4",
+    "@0x/utils": "^6.5.0",
+    "protobufjs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "hardhat": "^2.8.3",
+    "nice-repl": "^0.1.2",
+    "the-global-object": "^1.0.2"
+  }
+}
